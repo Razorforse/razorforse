@@ -285,8 +285,8 @@ li {
 }
 
 .hobbys__open img {
-	height: 180px;
-	width: 180px;
+	height: 200px;
+	width: 200px;
 	display: flex;
 }
 
@@ -509,6 +509,7 @@ li {
 	display: flex;
 	width: 130px;
 	height: 130px;
+	padding: 10px;
 
 }
 
@@ -564,15 +565,15 @@ li {
 .stack__open .stack__content img {
 	display: flex;
 	padding: 0;
-	margin: 10px;
-	height: 60px;
-	width: 60px;
-	transition: 2s;
+	margin: 30px;
+	height: 100px;
+	width: 100px;
+	transition: 1.3s;
 }
 
 .stack__open .stack__content img:hover {
-	height: 80px;
-	width: 80px;
+	height: 70px;
+	width: 70px;
 }
  
 .wrap {
@@ -590,12 +591,15 @@ li {
 .wrap li {
 	padding:10px;
 	margin: 10px;
+	display: flex;
+	justify-content: center;
 }
 
 .wrap a {
 	font-family: 'Poiret One', cursive;
 	font-size: var(--text-medium);
 	font-weight: 600;
+	text-align: center;
 }
 
 .card__open .wrap {
@@ -714,8 +718,10 @@ li {
 	height: 100px;
 	margin: 0;
 	}
-	.make-up {
+	.make-up,.react-projects {
 		height: 210px;
 		width: 210px;
 	}
+
+	
 }
