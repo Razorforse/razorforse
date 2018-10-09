@@ -509,13 +509,13 @@ li {
 	display: flex;
 	width: 130px;
 	height: 130px;
-
+	padding:10px;
 }
 
 .traning__open img:hover {
 	width: 110px;
 	height: 110px;
-	transition: 0.9s;
+	transition: 1.2s;
 }
 
 .traning__open div {
