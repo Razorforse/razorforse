@@ -9,7 +9,7 @@
 	--button:#D6FB29;
 	--text-small:14px;
 	--text-medium:28px;
-	--text-big:37px;
+	--text-big:48px;
 	--baracode:'Libre Barcode 128 Text', cursive;
 	--monotone:'Monoton', cursive;
 	--anton:'Anton', sans-serif;
@@ -579,17 +579,31 @@ li {
 	display: none;
 }
 
+.wrap ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 100px 0;
+	padding: 0;
+}
+
+.wrap li {
+	padding:10px;
+	margin: 10px;
+}
+
+.wrap a {
+	font-family: 'Poiret One', cursive;
+	font-size: var(--text-medium);
+	font-weight: 600;
+}
+
 .card__open .wrap {
 	display: flex;
+	flex-direction: column;
 	margin: 100px;
 }
 
-.wrap__card {
-  width: 600px;
-  height: 600px;
-  position: relative;
-  perspective: 1000px;
-}
 .front, .back {
   position: absolute;
   width: 100%;
@@ -603,20 +617,37 @@ li {
   backface-visibility: hidden;
   border-radius: 10px;
 }
-.front {
-  background:url(../img/scrin1.jpg) no-repeat center center;
+
+.make-up,.react-projects {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.make-up:hover .front,.react-projects:hover .front {transform: rotateY(180deg);}
+
+.make-up:hover .back,.react-projects:hover .back {transform: rotateY(360deg);}
+
+.react-projects .front {
+  background:url(../img/youtubesearch.png) no-repeat center center;
   background-size: cover;
 }
-.back {
-  background:url(../img/scrin2.jpg) no-repeat center center;
+
+.react-projects .back {
+  background:url(../img/basket.png) no-repeat center center;
   background-size: cover;
   transform: rotateY(180deg);
 }
-.wrap__card:hover .front {transform: rotateY(180deg);}
-.wrap__card:hover .back {transform: rotateY(360deg);}
 
-.footer {
-	height:;
+.make-up .front {
+  background:url(../img/scrin1.jpg) no-repeat center center;
+  background-size: cover;
+}
+.make-up .back {
+  background:url(../img/scrin2.jpg) no-repeat center center;
+  background-size: cover;
+  transform: rotateY(180deg);
 }
 
 #top {
@@ -683,7 +714,7 @@ li {
 	height: 100px;
 	margin: 0;
 	}
-	.wrap__card {
+	.make-up {
 		height: 210px;
 		width: 210px;
 	}
