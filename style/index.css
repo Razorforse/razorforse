@@ -509,14 +509,18 @@ li {
 	display: flex;
 	width: 130px;
 	height: 130px;
+<<<<<<< HEAD
 	padding: 10px;
 
+=======
+	padding:10px;
+>>>>>>> e1b6c4c03404054ca4a0f38197afa6d32298cba9
 }
 
 .traning__open img:hover {
 	width: 110px;
 	height: 110px;
-	transition: 0.9s;
+	transition: 1.2s;
 }
 
 .traning__open div {
@@ -553,18 +557,10 @@ li {
 	margin-bottom: 5%;
 }
 
-.stack__open .stack__content i {
-	margin: 20px;
-	transition: 2s;
-}
-
-.stack__open .stack__content i:hover {
-	font-size: 84px;
-}
-
 .stack__open .stack__content img {
 	display: flex;
 	padding: 0;
+<<<<<<< HEAD
 	margin: 30px;
 	height: 100px;
 	width: 100px;
@@ -574,6 +570,17 @@ li {
 .stack__open .stack__content img:hover {
 	height: 70px;
 	width: 70px;
+=======
+	margin: 10px;
+	height: 100px;
+	width: 100px;
+	transition: 2s;
+}
+
+.stack__open .stack__content img:hover {
+	height: 120px;
+	width: 120px;
+>>>>>>> e1b6c4c03404054ca4a0f38197afa6d32298cba9
 }
  
 .wrap {
@@ -722,6 +729,10 @@ li {
 		height: 210px;
 		width: 210px;
 	}
+<<<<<<< HEAD
 
 	
 }
+=======
+}
+>>>>>>> e1b6c4c03404054ca4a0f38197afa6d32298cba9
