@@ -225,10 +225,6 @@ li {
 	border-radius: 25px;
 }
 
-.card__close {
-	
-}
-
 .card__open {
 	width: 95%;
 	margin: 30px;
@@ -509,12 +505,8 @@ li {
 	display: flex;
 	width: 130px;
 	height: 130px;
-<<<<<<< HEAD
 	padding: 10px;
 
-=======
-	padding:10px;
->>>>>>> e1b6c4c03404054ca4a0f38197afa6d32298cba9
 }
 
 .traning__open img:hover {
@@ -534,16 +526,6 @@ li {
 	align-items: center;
 }
 
-
-.stack {
-	
-	
-}
-
-.stack__open {
-	
-}
-
 .stack .stack__content {
 	display: none;
 }
@@ -560,7 +542,6 @@ li {
 .stack__open .stack__content img {
 	display: flex;
 	padding: 0;
-<<<<<<< HEAD
 	margin: 30px;
 	height: 100px;
 	width: 100px;
@@ -570,7 +551,6 @@ li {
 .stack__open .stack__content img:hover {
 	height: 70px;
 	width: 70px;
-=======
 	margin: 10px;
 	height: 100px;
 	width: 100px;
@@ -580,7 +560,6 @@ li {
 .stack__open .stack__content img:hover {
 	height: 120px;
 	width: 120px;
->>>>>>> e1b6c4c03404054ca4a0f38197afa6d32298cba9
 }
  
 .wrap {
@@ -726,13 +705,9 @@ li {
 	margin: 0;
 	}
 	.make-up,.react-projects {
-		height: 210px;
-		width: 210px;
+	height: 210px;
+	width: 210px;
 	}
-<<<<<<< HEAD
 
 	
 }
-=======
-}
->>>>>>> e1b6c4c03404054ca4a0f38197afa6d32298cba9
