@@ -552,27 +552,18 @@ li {
 	margin-bottom: 5%;
 }
 
-.stack__open .stack__content i {
-	margin: 20px;
-	transition: 2s;
-}
-
-.stack__open .stack__content i:hover {
-	font-size: 84px;
-}
-
 .stack__open .stack__content img {
 	display: flex;
 	padding: 0;
 	margin: 10px;
-	height: 60px;
-	width: 60px;
+	height: 100px;
+	width: 100px;
 	transition: 2s;
 }
 
 .stack__open .stack__content img:hover {
-	height: 80px;
-	width: 80px;
+	height: 120px;
+	width: 120px;
 }
  
 .wrap {
